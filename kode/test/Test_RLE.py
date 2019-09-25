@@ -29,6 +29,8 @@ def test_rl10():
 def test_rl11():
     assert rle_decode('5a6c6b7g') == 'aaaaaccccccbbbbbbggggggg'
     
+def test_rl14():
+    assert rle("hhhtttfff") == 'hhtttfff'
     
     
 
