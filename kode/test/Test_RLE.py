@@ -3,7 +3,7 @@ Created on 11 Sep 2019
 
 @author: Steffen
 '''
-from kode.RLE import rle_decode, rle
+from RLE import rle_decode, rle
 
 
 
