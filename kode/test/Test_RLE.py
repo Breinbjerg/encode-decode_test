@@ -3,6 +3,10 @@ Created on 11 Sep 2019
 
 @author: Steffen
 '''
+import sys
+sys.path.append('/home/Steffen/rle_encode/encode-decode_test/kode')
+
+
 from RLE import rle_decode, rle
 
 
