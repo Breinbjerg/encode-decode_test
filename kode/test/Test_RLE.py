@@ -12,7 +12,7 @@ def test_rl4():
     
 # fail input - There must always be a number before character.
 def test_rl5():
-    assert  rle_decode('a5b6c') == ''
+    assert  rle_decode('1a5b6c') == 'abbbbbcccccc'
     
 def test_rl6():
     assert rle_decode('15a3b') == 'aaaaaaaaaaaaaaabbb'
