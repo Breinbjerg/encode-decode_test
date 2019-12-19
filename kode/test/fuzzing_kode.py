@@ -8,9 +8,9 @@ from fuzzing.fuzzer import FuzzExecutor
 
 
 
-file_list = ["/media/sf_Centos_Pythontest/first_test/kode/encode.txt"]
+file_list = ["/home/Steffen/rle_encode/encode-decode_test/kode/encode.txt"]
 
-apps_under_test = ["python & /media/sf_Centos_Pythontest/first_test/kode/RLE.py -e"]
+apps_under_test = ["python3 & /home/Steffen/rle_encode/encode-decode_test/kode/RLE.py -e"]
 
 number_of_runs = 5
 
