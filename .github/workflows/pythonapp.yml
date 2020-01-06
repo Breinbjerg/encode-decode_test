@@ -24,5 +24,5 @@ jobs:
     - name: Test Coverage
       working-directory: ./kode/test
       run: |
-        pytest Test_RLE.py --cov=RLE 
+        pytest --cov=RLE 
 
