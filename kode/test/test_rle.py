@@ -19,7 +19,7 @@ def test_rl5():
     assert  rle_decode('1a5b6c') == 'abbbbbcccccc'
 
 def test_rl6():
-    assert rle_decode('13a3b') == 'aaaaaaaaaaaaaaabbb'
+    assert rle_decode('15a3b') == 'aaaaaaaaaaaaaaabbb'
 
 def test_rl7():
     assert rle_decode('110a30b') == 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'
